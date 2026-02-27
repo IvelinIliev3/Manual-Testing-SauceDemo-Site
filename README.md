@@ -1,13 +1,29 @@
-# QA Testing Project: SauceDemo
-Това хранилище съдържа документация за функционално тестване на сайта [SauceDemo](https://www.saucedemo.com).
+# Manual QA Portfolio | SauceDemo Project
 
-## 📝 Test Cases
+This repository contains professional testing documentation for the [SauceDemo](https://www.saucedemo.com) e-commerce platform. The goal is to demonstrate my ability to analyze requirements, create structured test cases, and identify software defects.
+
+## 🚀 Project Overview
+- **Target Application:** SauceDemo (Swag Labs)
+- **Type of Testing:** Manual Functional Testing, UI/UX Testing, Regression Testing
+- **Tools Used:** Google Sheets, GitHub, Chrome DevTools
+
+## 📑 Test Cases
+The following table highlights key functional test scenarios:
 
 
-| ID | Title | Priority | Expected Result |
+| ID | Test Scenario | Priority | Expected Result |
 |:---|:---|:---:|:---|
-| TC01 | Login with valid user | High | Success login to Products page |
-| TC02 | Login with wrong password | High | Error message is displayed |
-| TC03 | Add product to cart | Medium | Cart badge counter increases to 1 |
-| TC04 | Complete Checkout Flow | High | "Thank you for your order!" message |
-| TC05 | Sort products by price (Low) | Low | First product is the cheapest one |
+| TC01 | Login with valid `standard_user` | High | User is redirected to the Inventory page |
+| TC02 | Login with locked out user | High | Error message: "Sorry, this user has been locked out." |
+| TC03 | Add item to cart from Home page | Medium | Cart badge updates and button text changes to "Remove" |
+| TC04 | Verify Checkout information validation | High | Error is shown if First/Last Name is missing during checkout |
+| TC05 | Sort products by price (Low to High) | Low | Items are displayed in ascending order by price |
+
+## 🐛 Bug Reports (Example)
+**Issue:** Product images not loading for `problem_user`.  
+**Severity:** Medium  
+**Status:** Open  
+**Steps to Reproduce:**
+1. Log in as `problem_user`.
+2. Observe the product gallery on the main page.
+**Actual Result:** All products show a broken image placeholder.
