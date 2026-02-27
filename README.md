@@ -7,5 +7,5 @@ Hi! I used [SauceDemo](https://www.saucedemo.com) to practice writing test cases
 - **Scenarios covered**: Login (Positive/Negative), Cart management, and Navigation.
 
 ## Tools used:
-- Google Sheets (for documentation)
+- Microsoft Excel(for documentation)
 - GitHub (for version control)
