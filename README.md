@@ -1,6 +1,6 @@
 # My QA Practice Project
 
-Hi! I'm learning Software Testing and this is where I keep my first test cases. I used the website [SauceDemo](https://www.saucedemo.com) to practice.
+Hi! This is where I keep some of my test cases. I used the website [SauceDemo](https://www.saucedemo.com) to practice.
 
 ## What I did:
 * Picked a real website to test.
