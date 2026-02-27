@@ -1,29 +1,24 @@
-# Manual QA Portfolio | SauceDemo Project
+# My QA Practice Project
 
-This repository contains professional testing documentation for the [SauceDemo](https://www.saucedemo.com) e-commerce platform. The goal is to demonstrate my ability to analyze requirements, create structured test cases, and identify software defects.
+Hi! I'm learning Software Testing and this is where I keep my first test cases. I used the website [SauceDemo](https://www.saucedemo.com) to practice.
 
-## 🚀 Project Overview
-- **Target Application:** SauceDemo (Swag Labs)
-- **Type of Testing:** Manual Functional Testing, UI/UX Testing, Regression Testing
-- **Tools Used:** Google Sheets, GitHub, Chrome DevTools
+## What I did:
+* Picked a real website to test.
+* Wrote 5 basic test cases to see if the main features work.
+* Tried to find where the system might break (Negative testing).
 
-## 📑 Test Cases
-The following table highlights key functional test scenarios:
+## My Test Cases:
 
 
-| ID | Test Scenario | Priority | Expected Result |
-|:---|:---|:---:|:---|
-| TC01 | Login with valid `standard_user` | High | User is redirected to the Inventory page |
-| TC02 | Login with locked out user | High | Error message: "Sorry, this user has been locked out." |
-| TC03 | Add item to cart from Home page | Medium | Cart badge updates and button text changes to "Remove" |
-| TC04 | Verify Checkout information validation | High | Error is shown if First/Last Name is missing during checkout |
-| TC05 | Sort products by price (Low to High) | Low | Items are displayed in ascending order by price |
+| ID | What am I testing? | Expected Result |
+|:---|:---|:---|
+| 01 | Login with correct username | I should see the products page. |
+| 02 | Login with a wrong password | I should see a red error message. |
+| 03 | Adding a shirt to the cart | The cart icon should show the number 1. |
+| 04 | Checkout without a name | The system should ask me for my name. |
+| 05 | Filter products by price | The cheapest item should come first. |
 
-## 🐛 Bug Reports (Example)
-**Issue:** Product images not loading for `problem_user`.  
-**Severity:** Medium  
-**Status:** Open  
-**Steps to Reproduce:**
-1. Log in as `problem_user`.
-2. Observe the product gallery on the main page.
-**Actual Result:** All products show a broken image placeholder.
+## Tools I used:
+* My browser (Chrome)
+* GitHub (to show my work)
+* Simple logic for testing
